@@ -1,0 +1,49 @@
+body{
+    behavior: url(orders.jsx);
+}
+table,th,td{
+    border-bottom: 1px solid #394f62;
+    align-items: center;
+}
+.orders{
+    height: 400px;
+    padding-left: 40px;
+    background-color: #394f62;
+    text-align: center;
+    margin-left: 11.8%;
+    margin-right: 11.1%;
+    margin-top: 50px;
+    color: white;
+    overflow-y: scroll;
+}
+table{
+    margin-left: 13px;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    background-color: #567086;
+    
+    
+}
+.orders th,td{
+    padding-right: 25px;
+   padding-left: 25px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+    
+}
+th{
+    font-size: 14px;
+    background-color: #455e75;
+    border: #567086;
+}
+#para{
+    font-weight: 600;
+  margin-right: 87%;
+    padding: 20px;
+}
+td li{
+   color: rgb(97, 247, 97);
+}
+li span{
+    color: white;
+}

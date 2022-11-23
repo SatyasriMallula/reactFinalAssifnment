@@ -1,0 +1,154 @@
+.mainnav{
+    width: 100%;
+    display: flex;
+   background-color: #6d8da6;
+   padding-right: 0px;
+}
+#product{
+    font-size: 1.4rem;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+#productdiv{
+    padding: 15px;
+    margin-right: 20px;
+    margin-left: 12%; 
+}
+.nav_top{
+    padding: 15px;
+    font-weight:500;
+    color:white;
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-direction: row;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+
+}
+.main{
+    background-color: #394f62;
+}
+.nav{
+    padding-left: 100px;
+}
+.icon{
+    margin-left: 21px;
+    margin-bottom: 0px;
+   font-size: 30px;
+   margin-top: 10px;
+}
+.nav_top a{
+    text-decoration: none;
+    color: white;
+}
+.nav_top li{
+   list-style-type: none;
+}
+#dashboard{
+ 
+background-color: #f5a623;
+
+}
+.nav_top:hover{
+    color: #f5a623;
+}
+.nav_top li:hover{
+    color:#f5a623;
+}
+#login{
+    color: #fff;
+    padding: 15px;
+    flex-direction: row;
+    margin-top: 28px;
+    margin-left: 50px;
+    margin-right: 100px;
+    text-decoration: none;
+}
+.nav_top:focus{
+    background-color: #f5a623;
+}
+.footer{
+    padding: 20px;
+    margin-top: 30px;
+    background-color:  #6d8da6;
+}
+.footer p{
+    color: white;
+    text-align: center;
+}
+.body{
+    background-color: #394f62;
+     position: fixed; 
+}
+ .body_first{
+    padding-bottom:90%;
+    padding-top: 20px;
+    color: #fff !important;
+    
+}
+.body_first p{
+    margin-top: 40px;
+    margin-left: 15%;
+}
+select{
+    box-sizing: content-box;
+    text-indent: 15%;
+    line-height: 82px;
+    border: none;
+    background-color:#6d8da6;
+    color: #fff;
+    
+}
+select li{
+    margin: 30%;
+}
+option{
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 16px;
+}
+
+#report option:hover{
+color: #f5a623;
+}
+
+select:hover{
+    color: #f5a623;
+}
+/* #pro:hover{
+    background-color: #f5a623;
+}
+#acc:hover{
+    background-color: #f5a623;
+    
+}
+#pro:hover .icon{
+    color: white;
+}
+#acc:hover .icon{
+    color: #fff;
+} */
+.chartsdiv{
+    margin-left: 40px;
+    margin-top: 40px;
+    background-color: #394f62;
+    margin-right: 240px;
+}
+.chartsdiv Chart{
+    color: #fff;
+}
+#chartmain{
+    display: flex;
+}
+.charts{
+    display: grid;
+    margin-left: 150px;
+    margin-right: 150px;
+    grid-template-columns: repeat(2,1fr);
+}
